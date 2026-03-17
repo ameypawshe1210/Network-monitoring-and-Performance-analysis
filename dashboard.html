@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Network Monitoring Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Network Monitoring Dashboard</h1>
+    <div class="cards">
+        <div class="card">
+            <h2>Total Devices</h2>
+            <p id="deviceCount">0</p>
+        </div>
+        <div class="card">
+            <h2>Active Devices</h2>
+            <p id="activeCount">0</p>
+        </div>
+        <div class="card">
+            <h2>Down Devices</h2>
+            <p id="downCount">0</p>
+        </div>
+    </div>
+
+    <h2 class="subtitle">Device Status</h2>
+    <table id="networkTable">
+        <tr>
+            <th>Host</th>
+            <th>Status</th>
+            <th>Speed (Latency)</th> </tr>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>
