@@ -1,0 +1,17 @@
+[
+    {
+        "host": "192.168.0.1",
+        "status": "Active",
+        "latency": "1ms"
+    },
+    {
+        "host": "192.168.0.102",
+        "status": "Active",
+        "latency": "0ms"
+    },
+    {
+        "host": "192.168.0.101",
+        "status": "Active",
+        "latency": "12ms"
+    }
+]
